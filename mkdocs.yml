@@ -1,0 +1,19 @@
+site_name: CS Notes
+
+nav:
+  - Home: index.md
+  - MkDocs: 
+    - MkDocs CheetSheet: ./MkDocs/MkDocs-Notes.md
+    - Material for MkDocs: ./MkDocs/materialForMkDocs.md
+  - Tic-Tac-Toe REST API: Tic-Tac-Toe-RestAPI.md
+
+#theme: readthedocs
+theme: 
+  name: material
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
